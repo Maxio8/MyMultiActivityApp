@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         buttonNavigate.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-            startActivityForResult(intent, REQUEST_CODE); // Uruchom aktywność z oczekiwaniem na wynik
+            startActivityForResult(intent, REQUEST_CODE); 
         });
     }
 
